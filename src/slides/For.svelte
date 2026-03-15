@@ -75,7 +75,7 @@
 
         for numero in numeros:
             # Imprime -1, 7, 5, 3
-            print(numero))">
+            print(numero)">
                 <p>Los bucles también pueden iterar sobre <b>listas</b>, pero veremos esto en una clase futura</p>
             </StepwiseCode>
         </Background>
