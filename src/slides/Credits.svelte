@@ -7,6 +7,8 @@
     import Kitchen from "/kitchen.jpg";
     import Counter from "/counter.jpg";
     import Codigo from "/codigo-python-alt.jpg";
+    import Scale from "/scale.svg";
+    import CC from "/by-nc.svg";
 
     import Background from "../lib/Background.svelte";
     import Card from "../lib/Card.svelte";
@@ -87,6 +89,23 @@
                         <a href="https://www.pexels.com/photo/asperitas-dark-clouds-in-gloomy-sky-3742711/" style="white-space: nowrap;">
                             Fondo por Andrew Beatson
                         </a>
+                    </Card>
+                </div>
+            </div>
+        </Background>
+    </section>
+    <section data-transition="fade">
+        <Background image={Clouds} blur tint="rgba(0, 0, 0, 0.5)">
+            <h3>Licencias</h3>
+            <div class="content-alt">
+                <div class="cards" style="grid-template-columns: 1fr 1fr;">
+                    <Card vertical>
+                        <img src={Scale} alt="">
+                        <p>Código disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Bucles/blob/main/LICENSE-MIT.md">licencia MIT</a></p>
+                    </Card>
+                    <Card vertical>
+                        <img src={CC} alt="" style="border: 2px solid #fff; border-radius: 8px;">
+                        <p>Presentación disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Bucles/blob/main/LICENSE-CC-BY-NC-4.0.md">licencia CC-BY-NC 4.0</a></p>
                     </Card>
                 </div>
             </div>
