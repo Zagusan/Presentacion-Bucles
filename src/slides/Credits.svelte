@@ -105,7 +105,7 @@
                     </Card>
                     <Card vertical>
                         <img src={CC} alt="" style="border: 2px solid #fff; border-radius: 8px;">
-                        <p>Presentación disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Bucles/blob/main/LICENSE-CC-BY-NC-4.0.md">licencia CC-BY-NC 4.0</a></p>
+                        <p>Presentación disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Bucles/blob/main/LICENSE.md">licencia CC-BY-NC 4.0</a></p>
                     </Card>
                 </div>
             </div>
