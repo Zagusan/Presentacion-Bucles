@@ -51,7 +51,7 @@
             <StepwiseCode 
             code="for numero in range(10):
             # Imprime los números del 0 al 9
-            print(numero))">
+            print(numero)">
                 <p>Se coloca dentro del bucle lo que se quiere repetir</p>
             </StepwiseCode>
         </Background>
