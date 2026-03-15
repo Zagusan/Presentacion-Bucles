@@ -1,9 +1,11 @@
 <script lang="ts">
+    import DefaultImage from "/bits-bg.jpg";
+
     let {
         children = undefined,
         blur = false,
         fragment = false,
-        image = "/bits-bg.jpg",
+        image = DefaultImage,
         tint = "transparent"
         } = $props();
 

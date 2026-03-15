@@ -46,7 +46,7 @@
             <h3>Hagamos un viaje a la cocina</h3>
             <div class="content">
                 <p>Esto no va a funcionar esta vez, ¿verdad?</p>
-                <pre style="width: 650px;" data-id="code">
+                <pre style="width: 650px;">
                     <code class="language-python" data-line-numbers data-trim>
                     for i in range(500):
                         print("¡Hola! ¿Qué desea ordenar?")
@@ -78,7 +78,7 @@
             <h3>Hagamos un viaje a la cocina</h3>
             <div class="content">
                 <p>¡El bucle <b><code>while</code></b> está aquí para salvar el día!</p>
-                <pre style="width: 650px;" data-id="code"><code class="language-python" data-line-numbers data-trim>
+                <pre style="width: 650px;"><code class="language-python" data-line-numbers data-trim>
                     hay_clientes = True
 
                     while hay_clientes:
