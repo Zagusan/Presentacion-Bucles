@@ -124,13 +124,12 @@
     <div class="codeCard">
         <Card>
             <pre><code class="language-python" data-trim>
-                for i in range
-                    print(i, end=", ")
+                print(*range            , sep=", ")
             </code></pre>
             <div class="inputContainer">
                 (
                 <input type="text" placeholder="inicio, fin, paso" bind:value={input}>
-                ):
+                )
             </div>
         </Card>
     </div>
@@ -162,8 +161,8 @@
     .inputContainer
     {
         position: absolute;
-        top: 27%;
-        left: 51%;
+        top: 35%;
+        left: 35.5%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -173,7 +172,7 @@
     input
     {
         field-sizing: content;
-        min-width: 20px;
+        min-width: 150px;
         max-width: 150px;
         background-color: #262626;
         color: #fff;
@@ -186,7 +185,6 @@
     pre
     {
         width: min-content;
-        padding-right: 80px;
     }
 
     pre code
