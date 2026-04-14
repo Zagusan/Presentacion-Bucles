@@ -49,7 +49,7 @@
                                 <li>Si hay dos o tres parámetros, estos corresponden a <code>inicio, fin, paso</code></li>
                             </ul>
                         </li>
-                        <li>Imprima los números que conforman cada órden</li>
+                        <li>Imprima los números que conforman cada orden</li>
                     </ul>
                 </Card>
             </div>

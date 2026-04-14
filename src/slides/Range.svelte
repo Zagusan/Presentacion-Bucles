@@ -13,13 +13,13 @@
         </Background>
     </section>
     <section data-transition="fade">
-        <Background blur>
+        <Background blur tint="rgba(0, 0, 0, 0.5)">
             <h3>¿Exactamente qué es <code>range()</code>?</h3>
             <p><b><code>range()</code></b> es una función que se puede usar para <b>representar intervalos</b>, como el nombre indica</p>
         </Background>
     </section>
     <section data-transition="fade">
-        <Background blur>
+        <Background blur tint="rgba(0, 0, 0, 0.5)">
             <h3>¿Exactamente qué es <code>range()</code>?</h3>
             <p>Se puede usar de <b>tres formas</b> distintas:</p>
             <div class="cards">
@@ -53,7 +53,7 @@
         </Background>
     </section>
     <section data-transition="fade">
-        <Background blur>
+        <Background blur tint="rgba(0, 0, 0, 0.5)">
             <h3>Práctica</h3>
             <p>Identifica los rangos</p>
             <div class="cards">
@@ -79,7 +79,7 @@
         </Background>
     </section>
     <section data-transition="fade">
-        <Background blur>
+        <Background blur tint="rgba(0, 0, 0, 0.5)">
             <h3>¡Inténtalo!</h3>
             <InteractiveRangeWidget/>
         </Background>

@@ -87,7 +87,7 @@
         <h3>Hagamos un viaje a la cocina</h3>
         <div class="content">
             <p>Bueno... Esto no parece muy óptimo...</p>
-            <pre style="width: 650px;" data-id="code">
+            <pre style="width: 700px;" data-id="code">
                 <code class="language-python" data-line-numbers bind:this={codeElement}>{Code}</code>
             </pre>
         </div>
@@ -99,7 +99,7 @@
             <div class="content">
                 <p>¡Mejor usemos un bucle!</p>
                 <p>¡Excelente! Ahora, el código es más compacto y fácil de editar</p>
-                <pre style="width: 650px;" data-id="code"><code class="language-python" data-line-numbers data-trim>
+                <pre style="width: 700px;" data-id="code"><code class="language-python" data-line-numbers data-trim>
                     import time
 
                     for i in range(500):

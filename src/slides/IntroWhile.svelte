@@ -46,7 +46,7 @@
             <h3>Hagamos un viaje a la cocina</h3>
             <div class="content">
                 <p>Esto no va a funcionar esta vez, ¿verdad?</p>
-                <pre style="width: 650px;">
+                <pre>
                     <code class="language-python" data-line-numbers data-trim>
                     for i in range(500):
                         print("¡Hola! ¿Qué desea ordenar?")
@@ -144,7 +144,7 @@
     {
         display: flex;
         align-items: center;
-        text-align: left    ;
+        text-align: left;
         gap: 1rem;
     }
 
@@ -152,6 +152,11 @@
     {
         height: 3rem;
         margin: 0;
+    }
+
+    pre
+    {
+        width: auto;
     }
 
     pre code

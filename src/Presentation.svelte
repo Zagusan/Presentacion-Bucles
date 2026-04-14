@@ -15,6 +15,8 @@
     import IntroWhile from './slides/IntroWhile.svelte';
     import While from './slides/While.svelte';
     import Activity from './slides/Activity.svelte';
+    import Solution from './slides/Solution.svelte';
+    import BreakContinue from './slides/Break&Continue.svelte';
 
     onMount(() => {
         initialize();
@@ -29,7 +31,9 @@
         <Range/>
         <IntroWhile/>
         <While/>
+        <BreakContinue/>
         <Activity/>
+        <Solution/>
         <Credits/>
     </div>
 </div>

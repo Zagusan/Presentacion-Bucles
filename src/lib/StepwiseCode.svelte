@@ -1,10 +1,10 @@
 <script>
-    let { children = undefined, code = ""} = $props();
+    let { children = undefined, code = "", overflow = "hidden", highlight = ""} = $props();
 </script>
 
 <div class="contentLayout">
     {@render children?.()}
-    <pre data-id="code"><code data-trim data-line-numbers class="language-python">
+    <pre data-id="code"><code data-trim data-line-numbers={highlight} class="language-python" style="--overflow: {overflow}">
         {code}
     </code></pre>
 </div>
@@ -28,6 +28,7 @@
 
     .contentLayout pre code
     {
-        overflow: hidden;
+        overflow: var(--overflow);
+        box-sizing: border-box;
     }
 </style>
